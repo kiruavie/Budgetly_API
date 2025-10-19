@@ -1,14 +1,10 @@
-Projet : API de Notes Éphémères
-But
+🧾 Projet 1 : Budgetly API (Gestion de budget personnel)
+🎯 Objectif
 
-Permettre de créer une note qui s’auto-détruit après lecture ou à une date d’expiration. Options : mot de passe, lecture unique, compteur de vues, date d’expiration.
+Créer une API NestJS permettant à un utilisateur unique de :
 
-Stack
+enregistrer ses revenus et dépenses,
 
-NestJS
+voir son solde actuel,
 
-Prisma + PostgreSQL (ou Neon)
-
-bcrypt pour mot de passe (optionnel)
-
-class-validator pour DTOs
+consulter des totaux par catégorie et par mois.
